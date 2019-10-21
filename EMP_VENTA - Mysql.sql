@@ -1,0 +1,11 @@
+USE venta;
+INSERT INTO EMPLEADO
+(IDEMP,FECINGEMP,CARGEMP,JEFE_IDEMP,SALEMP,ESTEMP,DEMP,IDPER,IDDEP,NIVSUE)
+VALUES
+(11,"10-1-18","Limpieza",1,20.5,"L",1,1,2,5),
+(12,"13-1-18","Tesorero",2,45.5,"T",2,2,1,1),
+(13,"15-1-18","Ayudante",3,0.50,"A",3,3,5,2),
+(14,"20-1-18","Seguridad",4,50.5,"S",4,4,4,3),
+(15,"31-1-18","Contador",5,60.6,"c",5,5,3,4);
+
+SELECT * FROM EMPLEADO;
